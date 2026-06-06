@@ -120,7 +120,7 @@ export default function KontakSection() {
             <div className="text-white">
               <h3 className="font-display font-bold text-xl md:text-2xl mb-1">Chat Langsung via WhatsApp</h3>
               <p className="font-body text-green-100/80 text-sm md:text-base">
-                Respons cepat! Kami siap melayani pesanan & pertanyaan Anda setiap hari pukul 08.00–22.00.
+                Respons cepat! Kami siap melayani pesanan & pertanyaan Anda setiap hari pukul 08.00–14.00.
               </p>
             </div>
           </div>
