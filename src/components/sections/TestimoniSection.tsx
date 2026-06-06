@@ -82,7 +82,7 @@ export default function TestimoniSection() {
               >
                 {/* Quote mark */}
                 <div className="text-5xl text-primary-200 dark:text-primary-800 font-serif leading-none absolute top-4 left-8">
-                  "
+                  &quot;
                 </div>
 
                 <div className="relative z-10">
