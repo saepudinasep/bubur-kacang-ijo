@@ -49,7 +49,8 @@ export default function HeroSection() {
           style={{
             top: el.top,
             left: el.left,
-            right: (el as Record<string, string>).right,
+            // right: (el as Record<string, string>).right,
+            right: el.right,
             bottom: el.bottom,
             animation: `float ${6 + i}s ease-in-out infinite ${el.delay}s`,
           }}

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock, Car, ExternalLink, MessageCircle, Navigation } from "lucide-react";
+import { MapPin, Phone, Clock, ExternalLink, MessageCircle, Navigation } from "lucide-react";
 import { WHATSAPP_URL, GMAPS_URL } from "@/lib/utils";
 
 export default function LokasiSection() {
