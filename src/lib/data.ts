@@ -91,7 +91,7 @@ export const testimonials: Testimonial[] = [
     name: "Ahmad Fauzi",
     location: "Kampung Makasar, Jakarta Timur",
     rating: 5,
-    text: "Pelayanan cepat dan rasa konsisten dari dulu sampai sekarang. Suka yang versi premium, santannya benar-benar terasa alami.",
+    text: "Pelayanan cepat dan rasa konsisten dari dulu sampai sekarang. Suka yang versi lengkap bubur kacang ijo ketam hitam + roti, santannya benar-benar terasa alami.",
     avatar: "AF",
   },
   {
