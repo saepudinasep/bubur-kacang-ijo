@@ -1,0 +1,8 @@
+# Buat .gitignore
+@"
+node_modules/
+.next/
+.env
+.env.local
+.env*.local
+"@ | Out-File -FilePath .gitignore -Encoding utf8

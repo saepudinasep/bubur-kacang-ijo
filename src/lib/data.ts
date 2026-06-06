@@ -1,0 +1,112 @@
+import type { MenuItem, Testimonial, Stat } from "@/types";
+
+export const menuItems: MenuItem[] = [
+  {
+    id: 1,
+    name: "Bubur Kacang Ijo Original",
+    price: 8000,
+    description: "Bubur kacang hijau klasik dengan kuah santan gurih dan gula jawa yang harum.",
+    rating: 4.8,
+    emoji: "🍵",
+    color: "from-green-400 to-green-600",
+  },
+  {
+    id: 2,
+    name: "Bubur Kacang Ijo Ketan Hitam + Roti",
+    price: 10000,
+    description: "Perpaduan kacang ijo lembut dengan ketan hitam yang legit dan kaya antioksidan. Di campur Roti dengan tekstur lembut.",
+    rating: 4.9,
+    emoji: "🥥",
+    badge: "Best Seller",
+    color: "from-emerald-400 to-teal-600",
+  },
+  {
+    id: 3,
+    name: "Bubur Kacang Ijo Ketan Hitam",
+    price: 8000,
+    description: "Perpaduan kacang ijo lembut dengan ketan hitam yang legit dan kaya antioksidan.",
+    rating: 4.7,
+    emoji: "⚫",
+    color: "from-slate-600 to-slate-800",
+  },
+  // {
+  //   id: 4,
+  //   name: "Bubur Kacang Ijo Durian",
+  //   price: 22000,
+  //   description: "Sensasi unik perpaduan bubur kacang ijo dengan daging durian lokal pilihan.",
+  //   rating: 4.9,
+  //   emoji: "🌵",
+  //   badge: "Favorit",
+  //   color: "from-yellow-400 to-orange-500",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Bubur Kacang Ijo Keju",
+  //   price: 20000,
+  //   description: "Perpaduan modern kacang ijo hangat dengan topping keju mozzarella leleh.",
+  //   rating: 4.6,
+  //   emoji: "🧀",
+  //   badge: "New",
+  //   color: "from-yellow-300 to-amber-500",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Bubur Kacang Ijo Spesial Komplit",
+  //   price: 25000,
+  //   description: "Paket lengkap dengan santan premium, ketan hitam, topping spesial, dan minuman.",
+  //   rating: 5.0,
+  //   emoji: "⭐",
+  //   badge: "Premium",
+  //   color: "from-green-500 to-emerald-700",
+  // },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: "Siti Rahayu",
+    location: "Pasar Rebo, Jakarta Timur",
+    rating: 5,
+    text: "Rasanya enak dan selalu fresh! Sudah langganan sejak setahun lalu, tidak pernah kecewa. Bubur kacang ijonya lembut sempurna.",
+    avatar: "SR",
+  },
+  {
+    id: 2,
+    name: "Budi Santoso",
+    location: "Kramat Jati, Jakarta Timur",
+    rating: 5,
+    text: "Santannya gurih dan kacang hijaunya lembut. Suka banget sama topping originalnya, berasa homemade. Recommended banget!",
+    avatar: "BS",
+  },
+  {
+    id: 3,
+    name: "Dewi Lestari",
+    location: "Cipayung, Jakarta Timur",
+    rating: 5,
+    text: "Langganan keluarga setiap minggu. Anak-anak suka semua menunya, apalagi yang durian. Tempatnya bersih dan pelayanan ramah.",
+    avatar: "DL",
+  },
+  {
+    id: 4,
+    name: "Ahmad Fauzi",
+    location: "Kampung Makasar, Jakarta Timur",
+    rating: 5,
+    text: "Pelayanan cepat dan rasa konsisten dari dulu sampai sekarang. Suka yang versi premium, santannya benar-benar terasa alami.",
+    avatar: "AF",
+  },
+  {
+    id: 5,
+    name: "Rina Wulandari",
+    location: "Kramat Jati, Jakarta Timur",
+    rating: 5,
+    text: "Harga terjangkau dengan kualitas premium. Porsinya juga pas, tidak terlalu sedikit. Cocok untuk sarapan atau camilan sore.",
+    avatar: "RW",
+  },
+];
+
+export const stats: Stat[] = [
+  { value: "5000", label: "Porsi Terjual", suffix: "+" },
+  { value: "1500", label: "Pelanggan Setia", suffix: "+" },
+  { value: "4.9", label: "Rating Pelanggan", suffix: "" },
+  { value: "6", label: "Tahun Melayani", suffix: "+" },
+];
