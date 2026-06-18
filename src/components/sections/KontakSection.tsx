@@ -8,7 +8,7 @@ const contactItems = [
   {
     Icon: MessageCircle,
     label: "WhatsApp",
-    value: "+62 812-3456-7890",
+    value: "+62 857-2148-5664",
     href: WHATSAPP_URL,
     color: "from-green-400 to-emerald-600",
     bg: "bg-green-50 dark:bg-green-950/30",
